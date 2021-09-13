@@ -82,7 +82,7 @@ public struct CodeScannerView: UIViewControllerRepresentable {
         var delegate: ScannerCoordinator?
         private let showViewfinder: Bool
 
-        public init(showViewfinder: Bool = false) {
+        public init(showViewfinder: Bool = false, viewfinderSize: CGFloat = 200) {
             self.showViewfinder = showViewfinder
             super.init(nibName: nil, bundle: nil)
         }
